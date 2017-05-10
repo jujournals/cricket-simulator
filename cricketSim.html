@@ -1,0 +1,177 @@
+<html>
+<head>
+<title>Cricket Simulator</title>
+<link href="cricketStyle.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="cricketjs.js"></script>
+</head>
+
+<body>
+<h1> Aussie Test Series </h1>
+
+<table width="802" border="0" cellspacing="0" cellpadding="0" align="center">
+<form name="cricket">
+	<tr>
+    	<td colspan="2">
+<label> Team 1: </label>
+<select id="selectTeam1" name="selectTeam1">
+		<option value="0"> NSW Blues </option>
+        <option value="1"> QLD Bulls </option>
+		<option value="2"> TAS Tigers </option>
+        <option value="3"> WA Warriors </option>
+</select>
+&nbsp;&nbsp;&nbsp;&nbsp;
+<label> Team 2: </label>
+<select id="selectTeam2" name="selectTeam2">
+    	<option value="0"> NSW Blues </option>
+        <option value="1"> QLD Bulls </option>
+		<option value="2"> TAS Tigers </option>
+        <option value="3"> WA Warriors </option>
+</select>
+</br>
+</br>
+    <input type="button" value="Play" onClick="gamePlay()">
+    	</td>
+    </tr>
+
+  
+  <tr>
+    <td >
+  <table width="200" border="1" cellspacing="0" cellpadding="0"  style="background-color:#FFF" align="center">
+  <tr>
+    <td>Team 1:</td>
+    <td><input type="text" size="14" id="name1" disabled="" /></td>
+  </tr>
+  <tr>
+    <td>Player</td>
+    <td>Runs</td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td><input type="text" size="10" id="one1" disabled="" /></td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td><input type="text" size="10" id="one2" disabled="" /></td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td><input type="text" size="10" id="one3" disabled="" /></td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td><input type="text" size="10" id="one4" disabled="" /></td>
+  </tr>
+  <tr>
+    <td>5</td>
+    <td><input type="text" size="10" id="one5" disabled="" /></td>
+  </tr>
+  <tr>
+    <td>6</td>
+    <td><input type="text" size="10" id="one6" disabled="" /></td>
+  </tr>
+  <tr>
+    <td>7</td>
+    <td><input type="text" size="10" id="one7" disabled="" /></td>
+  </tr>
+  <tr>
+    <td>8</td>
+    <td><input type="text" size="10" id="one8" disabled="" /></td>
+  </tr>
+  <tr>
+    <td>9</td>
+    <td><input type="text" size="10" id="one9" disabled="" /></td>
+  </tr>
+  <tr>
+    <td>10</td>
+    <td><input type="text" size="10" id="one10" disabled="" /></td>
+  </tr>
+  <tr>
+    <td>TOTAL:</td>
+    <td><input type="text" size="14" id="total1" disabled="" /></td>
+  </tr>
+  <tr>
+    <td>AVERAGE:</td>
+    <td><input type="text" size="14" id="avg1" disabled="" /></td>
+  </tr>
+</table>
+  
+  </td>
+  <td width="402">
+  <table width="200" border="1" cellspacing="0" cellpadding="0"  style="background-color:#FFF" align="center">
+  <tr>
+    <td>Team 2:</td>
+    <td><input type="text" size="14" id="name2" disabled="" /></td>
+  </tr>
+  <tr>
+    <td>Player</td>
+    <td>Runs</td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td><input type="text" size="10" id="two1" disabled="" /></td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td><input type="text" size="10" id="two2" disabled="" /></td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td><input type="text" size="10" id="two3" disabled="" /></td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td><input type="text" size="10" id="two4" disabled="" /></td>
+  </tr>
+  <tr>
+    <td>5</td>
+    <td><input type="text" size="10" id="two5" disabled="" /></td>
+  </tr>
+  <tr>
+    <td>6</td>
+    <td><input type="text" size="10" id="two6" disabled="" /></td>
+  </tr>
+  <tr>
+    <td>7</td>
+    <td><input type="text" size="10" id="two7" disabled="" /></td>
+  </tr>
+  <tr>
+    <td>8</td>
+    <td><input type="text" size="10" id="two8" disabled="" /></td>
+  </tr>
+  <tr>
+    <td>9</td>
+    <td><input type="text" size="10" id="two9" disabled="" /></td>
+  </tr>
+  <tr>
+    <td>10</td>
+    <td><input type="text" size="10" id="two10" disabled="" /></td>
+  </tr>
+  <tr>
+    <td>TOTAL:</td>
+    <td><input type="text" size="14" id="total2" disabled="" /></td>
+  </tr>
+  <tr>
+    <td>AVERAGE:</td>
+    <td><input type="text" size="14" id="avg2" disabled="" /></td>
+  </tr>
+</table>
+  
+  </td>
+</tr>
+  <tr>
+    <td colspan="2" style="padding-top:15px">
+    <label>Winner:</label>
+    <input type="text" size="10" id="winner" disabled="" />
+    </br>
+    </br>
+    <label>Highscore:</label>
+    <input type="text" size="6" id="highscore" disabled="" />
+    
+    </td>
+  </tr>
+  </form>
+</table>
+
+    
+</body>
+</html>
